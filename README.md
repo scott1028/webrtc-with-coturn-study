@@ -76,3 +76,7 @@ credentials.push({
 
 - coturn create a user with test, password.
 - 如果 ROOM 出現雙方 Video 影像就正確了！
+
+![Alt text](https://raw.githubusercontent.com/scott1028/webrtc-with-coturn-study/master/coturnlog.jpg "coturnlog.jpg")
+![Alt text](https://raw.githubusercontent.com/scott1028/webrtc-with-coturn-study/master/coturn401errorInWireshark1.jpg "coturn401errorInWireshark1.jpg")
+![Alt text](https://raw.githubusercontent.com/scott1028/webrtc-with-coturn-study/master/coturn401errorInWireshark2.jpg "coturn401errorInWireshark2.jpg")
