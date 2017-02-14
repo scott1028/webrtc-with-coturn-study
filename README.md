@@ -4,8 +4,8 @@
 - SignalingMaster, a webrtc signaling server to config where turn, stun and user crendential.
 
 ```
-$ node ./SimpleWebRTC/server.js
-$ node ./signalmaster/server.js
+$ cd ./SimpleWebRTC && node ./server.js
+$ cd ./signalmaster && node ./server.js
 ```
 
 - index.html
