@@ -8,6 +8,8 @@ $ cd ./SimpleWebRTC && node ./server.js
 $ cd ./signalmaster && node ./server.js
 ```
 
+- Demo 的話 UI Server 那邊要替換 Signaling Server 的位置！
+
 - index.html
 
 ```
