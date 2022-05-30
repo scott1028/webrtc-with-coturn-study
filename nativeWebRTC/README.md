@@ -41,8 +41,9 @@ setRemoteSessionDescriptionAndIceCandidatesHelper({
 - ![Browser campatible sheet](https://github.com/scott1028/webrtc-with-coturn-study/blob/master/nativeWebRTC/campatible-table.jpg)
 
 # Terminology
-- iceCandidate. ICE(Interactive Connectivity Establishment) is a framework for P2P connection of WebRTC. (https://developer.mozilla.org/en-US/docs/Glossary/ICE)
 - sessionDescription specifies the configuration to be applied to the local end of the connection.
+- iceCandidate. ICE(Interactive Connectivity Establishment) is a framework for P2P connection of WebRTC. (https://developer.mozilla.org/en-US/docs/Glossary/ICE)
+  - connection candidate objects. It could be a array, the browser will try the stunnel from `local network` to `turn server base` in priority.
 
 # Reference
 - https://ithelp.ithome.com.tw/articles/10209725
