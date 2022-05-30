@@ -43,3 +43,7 @@ setRemoteSessionDescriptionAndIceCandidatesHelper({
 # Terminology
 - iceCandidate. ICE(Interactive Connectivity Establishment) is a framework for P2P connection of WebRTC. (https://developer.mozilla.org/en-US/docs/Glossary/ICE)
 - sessionDescription specifies the configuration to be applied to the local end of the connection.
+
+# Reference
+- https://ithelp.ithome.com.tw/articles/10209725
+
