@@ -34,7 +34,8 @@ setRemoteSessionDescriptionAndIceCandidatesHelper({
 - check if `onopen: xxxxx` log displayed. After connection opened, you can try `console.log` on both of devTool console
 
 # UML Diagram
-- TODO: by https://www.planttext.com/
+1. ![P2P connection workflow](https://raw.githubusercontent.com/scott1028/webrtc-with-coturn-study/master/nativeWebRTC/workflow.png)
+2. ![Browser campatible sheet](https://github.com/scott1028/webrtc-with-coturn-study/blob/master/nativeWebRTC/campatible-table.jpg)
 
 # Terminology
 - iceCandidate. ICE(Interactive Connectivity Establishment) is a framework for P2P connection of WebRTC. (https://developer.mozilla.org/en-US/docs/Glossary/ICE)
