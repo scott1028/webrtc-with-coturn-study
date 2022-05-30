@@ -34,8 +34,11 @@ setRemoteSessionDescriptionAndIceCandidatesHelper({
 - check if `onopen: xxxxx` log displayed. After connection opened, you can try `console.log` on both of devTool console
 
 # UML Diagram
-1. ![P2P connection workflow](https://raw.githubusercontent.com/scott1028/webrtc-with-coturn-study/master/nativeWebRTC/workflow.png)
-2. ![Browser campatible sheet](https://github.com/scott1028/webrtc-with-coturn-study/blob/master/nativeWebRTC/campatible-table.jpg)
+- ![P2P connection workflow](https://raw.githubusercontent.com/scott1028/webrtc-with-coturn-study/master/nativeWebRTC/workflow.png)
+  - Signaling-server: privode SDP & ICE Candidate information exchange.
+  - Turn Server: provide data relay once real P2P can not be used between two network endpoint.
+
+- ![Browser campatible sheet](https://github.com/scott1028/webrtc-with-coturn-study/blob/master/nativeWebRTC/campatible-table.jpg)
 
 # Terminology
 - iceCandidate. ICE(Interactive Connectivity Establishment) is a framework for P2P connection of WebRTC. (https://developer.mozilla.org/en-US/docs/Glossary/ICE)
